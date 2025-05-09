@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Planificación Didáctica - Visita Mayo </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <style>
+    .reveal section {
+      font-size: 1.7rem;
+      line-height: 1.5;
+      color: #d0f0fd;
+    }
+    .title {
+      font-size: 2.8rem;
+      color: #00ffe1;
+    }
+    .subtext {
+      font-size: 1.3rem;
+      color: #90e0ef;
+    }
+    .footer {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1rem;
+      color: #84a9c0;
+    }
+    .highlight {
+      background: #003845;
+      color: #00ffe1;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .frame {
+      border: 2px solid #00ffe1;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #011820;
+    }
+    code {
+      background: #002b36;
+      padding: 0.3rem 0.5rem;
+      border-radius: 4px;
+      color: #00ffe1;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <h1 class="title">Planificación Didáctica</h1>
+        <p class="subtext">Clase Visita Mayo – Sistemas Operativos</p>
+        <p class="subtext">Docente(Practicante): Eros Sosa</p>
+        <p class="subtext">INET – Didáctica 3 – 4.º Año – Turno Nocturno</p>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-layer-group"></i> Unidad Didáctica</h2>
+        <div class="frame">
+          <p><strong>Título:</strong> Sistema de archivos y gestión de archivos en Linux</p>
+          <p>Corresponde a los contenidos del programa oficial de 2.º de Bachillerato Tecnológico – Tramo 8.</p>
+          <p>Incluye comandos básicos de manipulación de archivos y comprensión del sistema de archivos jerárquico.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-bullseye"></i> Objetivo General</h2>
+        <p class="highlight">Que el estudiante sea capaz de crear, organizar y manipular archivos y carpetas en un entorno Linux utilizando la terminal.</p>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-code-branch"></i> Competencias del Programa</h2>
+        <ul>
+          <li><strong>CET1:</strong> Comprende la lógica del sistema operativo y su estructura de archivos.</li>
+          <li><strong>CET2:</strong> Utiliza herramientas del sistema para la gestión de archivos y carpetas.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-terminal"></i> Comandos Trabajados</h2>
+        <ul>
+          <li><code>mkdir</code> – Crear carpetas</li>
+          <li><code>touch</code> – Crear archivos</li>
+          <li><code>cp</code> – Copiar archivos</li>
+          <li><code>mv</code> – Mover o renombrar</li>
+          <li><code>rm / rmdir</code> – Eliminar archivos y carpetas</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-check-double"></i> Criterios de Logro</h2>
+        <ul>
+          <li>Crea y estructura carpetas en forma jerárquica</li>
+          <li>Utiliza correctamente los comandos trabajados</li>
+          <li>Aplica buenas prácticas de organización digital</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-clipboard-check"></i> Evaluación Formativa</h2>
+        <div class="frame">
+          <p><strong>Instrumento:</strong> observación directa y revisión entre pares con lista de cotejo</p>
+          <p><strong>Indicadores:</strong> ejecución de comandos, estructura lograda, autonomía</p>
+        </div>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-calendar-check"></i> Desarrollo Paso a Paso</h2>
+        <ol>
+          <li><strong>0–5 min:</strong> Presentación del objetivo y repaso de comandos previos</li>
+          <li><strong>5–10 min:</strong> Demostración guiada de uso de mkdir, touch, cp, mv, rm</li>
+          <li><strong>10–30 min:</strong> Actividad práctica</li>
+          <li><strong>30–35 min:</strong> Revisión entre pares con comandos <code>ls</code> o <code>tree</code></li>
+          <li><strong>35–40 min:</strong> Cierre con reflexión y devolución docente</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-users-cog"></i> Actividad que realizan los estudiantes</h2>
+        <div class="frame">
+          <p>Simular un entorno laboral creando la siguiente estructura:</p>
+          <pre>
+MiEmpresa/
+├── Clientes/
+│   ├── cliente1.txt
+│   └── cliente2.txt
+├── Backups/
+├── Informes/
+│   └── informe.txt
+          </pre>
+          <p>Deberán crear archivos con <code>touch</code>, moverlos con <code>mv</code>, copiar con <code>cp</code>, y eliminar con <code>rm</code>.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2><i class="fas fa-lightbulb"></i> Fundamentos Pedagógicos</h2>
+        <ul>
+          <li>Enfoque socioconstructivista (Vygotsky, Bruner)</li>
+          <li>Trabajo colaborativo y aprendizaje basado en problemas</li>
+          <li>Uso de herramientas digitales en contexto</li>
+          <li>El error como herramienta de mejora</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>¡Gracias por su atención!</h2>
+        <p class="footer">Docente: Eros Sosa – INET – Didáctica 3 – 4.º Año – Turno Nocturno</p>
+      </section>
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'slide',
+    });
+  </script>
+</body>
+</html>
